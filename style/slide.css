@@ -1,0 +1,46 @@
+.slide {
+	position: absolute;
+	height: inherit;
+	width: inherit;
+	display: flex;
+}
+.displayer {
+	background: rgba(0,0,0,0.2);
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+.leftClick {
+	display: none;
+}
+.leftClick img{
+}
+.slide_container {
+}
+.containt {
+	display: none;
+}
+.active {
+	display: flex;
+	animation: on 0.8s;
+}
+@keyframes on {
+	from{
+		opacity: 0;
+	}to{
+		opacity: 1;
+	}
+}
+.active img {
+	
+}
+.active video {
+	
+}
+.rightClick {
+	display: none;
+}
+.rightClick img{
+	
+}
